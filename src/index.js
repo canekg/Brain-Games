@@ -1,19 +1,19 @@
 import readlineSync from 'readline-sync';
 
-const Game = (task, answerchek, question) => {
-  // Объявление переменной для проверки ответа
+const game = (task, gameoption) => {
+  // Приветствие
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log('Hello,', `${userName}!`);
   // eslint-disable-next-line no-undef
   console.log(task);
-
+  const maxraunds = 3;
   // Цикл (3 задачи - 3 ответа)
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i < maxraunds; i += 1) {
+    const [answerchek, question] = gameoption();
     // eslint-disable-next-line no-undef
-    console.log(question);
+    console.log('Question:', `${question}`);
     const answer = readlineSync.question('Your answer: ');
-
     // проверка на правильный ответ
     if (answerchek === answer) {
       console.log('Correct!');
@@ -28,4 +28,4 @@ const Game = (task, answerchek, question) => {
   }
   console.log('Congratulations,', `${userName}!`);
 };
-export default Game;
+export default game;
