@@ -20,7 +20,7 @@ const game = (task, gameoption) => {
       // eslint-disable-next-line no-undef
     } else {
       console.log(
-        `${answer} is wrong answer ;(. Correct answer was '${answerchek}'.`
+        `'${answer}' is wrong answer ;(. Correct answer was '${answerchek}'.`
       );
       console.log("Let's try again,", `${userName}!`);
       return;
