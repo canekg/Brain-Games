@@ -7,3 +7,12 @@
 
 // ссылка на запись игры brain-even
 https://asciinema.org/a/P19fFJQo8z9gXWqgQMlnsVnRm
+
+// ссылка на запись игры brain-calc
+https://asciinema.org/a/bYpJmBd28O7uUPMH6O0Kp8Xeg
+
+// ссылка на запись игры brain-gcd
+https://asciinema.org/a/XIMqgvOXezM95C5wg7DEeSMPv
+
+// ссылка на запись игры brain-progression
+https://asciinema.org/a/vGq6p3BJC9pnqepbL4Zgj7hhX
