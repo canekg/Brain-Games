@@ -25,8 +25,7 @@ const gameoption = () => {
     answerchek = String(randomNumber1 * randomNumber2);
   }
 
-  const question =
-    ('Question:', `${randomNumber1} ${randomoperation} ${randomNumber2}`);
+  const question = ('Question:', `${randomNumber1} ${randomoperation} ${randomNumber2}`);
   // eslint-disable-next-line no-unused-expressions
   return [answerchek, question];
 };
