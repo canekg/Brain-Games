@@ -16,3 +16,6 @@ https://asciinema.org/a/XIMqgvOXezM95C5wg7DEeSMPv
 
 // ссылка на запись игры brain-progression
 https://asciinema.org/a/vGq6p3BJC9pnqepbL4Zgj7hhX
+
+// ссылка на запись игры brain-prime
+https://asciinema.org/a/80nNm6BJWgEsmGM2vzuY7Jp5Z
