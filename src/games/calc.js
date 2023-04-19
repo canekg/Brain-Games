@@ -5,16 +5,21 @@ import randomNumberGeneration from '../utils.js';
 const task = 'What is the result of the expression?';
 
 const answerCalculation = (operator, number1, number2) => {
+  let outcome;
   switch (operator) {
     case '+':
-      return String(number1 + number2);
+      outcome = String(number1 + number2);
+      break;
     case '-':
-      return String(number1 - number2);
+      outcome = String(number1 - number2);
+      break;
     case '*':
-      return String(number1 * number2);
+      outcome = String(number1 * number2);
+      break;
     default:
       break;
   }
+  return outcome;
 };
 
 const gameSettingsBuilding = () => {
@@ -23,8 +28,8 @@ const gameSettingsBuilding = () => {
   const operation = ['+', '-', '*'];
   const randomOperation = operation[randomNumberGeneration(0, 3)];
   const question = ('Question:', `${randomNumber1} ${randomOperation} ${randomNumber2}`);
-  const answerChek = answerCalculation(randomOperation, randomNumber1, randomNumber2);
-  return [answerChek, question];
+  const answerCheck = answerCalculation(randomOperation, randomNumber1, randomNumber2);
+  return [answerCheck, question];
 };
 
 const brainCalc = () => game(task, gameSettingsBuilding);
