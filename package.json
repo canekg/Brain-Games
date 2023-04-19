@@ -1,12 +1,11 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/canekg/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/canekg/frontend-project-44/actions)",
-  "main": "index.js",
+  "description": "In this project, 5 games for logical thinking are implemented. Each game asks questions to which you need to enter the correct answer. After three correct answers, you pass the game. If the answer is incorrect, the game ends and you will be asked to play again.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Alexandr Fadeev",
   "bin": {
     "brain-prime": "bin/brain-prime.js",
     "brain-progression": "bin/brain-progression.js",
