@@ -30,14 +30,14 @@ $ brain-even
 game is even
 [![asciicast](https://asciinema.org/a/P19fFJQo8z9gXWqgQMlnsVnRm.svg)](https://asciinema.org/a/P19fFJQo8z9gXWqgQMlnsVnRm)
 
-game calc
+game is calc
 [![asciicast](https://asciinema.org/a/bYpJmBd28O7uUPMH6O0Kp8Xeg.svg)](https://asciinema.org/a/bYpJmBd28O7uUPMH6O0Kp8Xeg)
 
-game gcd
+game is gcd
 [![asciicast](https://asciinema.org/a/XIMqgvOXezM95C5wg7DEeSMPv.svg)](https://asciinema.org/a/XIMqgvOXezM95C5wg7DEeSMPv)
 
-game progression
+game is progression
 [![asciicast](https://asciinema.org/a/vGq6p3BJC9pnqepbL4Zgj7hhX.svg)](https://asciinema.org/a/vGq6p3BJC9pnqepbL4Zgj7hhX)
 
-game prime
+game is prime
 [![asciicast](https://asciinema.org/a/80nNm6BJWgEsmGM2vzuY7Jp5Z.svg)](https://asciinema.org/a/80nNm6BJWgEsmGM2vzuY7Jp5Z)
