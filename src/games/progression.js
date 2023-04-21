@@ -6,8 +6,9 @@ const task = 'What number is missing in the progression?';
 const generateProgression = (randomElement, step, numberElements, indexElementReplacement) => {
   const newarray = [];
   for (let i = 0; i < numberElements; i += 1) {
-    const element = randomElement + i * step;
-    i !== indexElementReplacement ? newarray.push(element) : newarray.push('..');
+    const current = randomElement + i * step;
+    const element = i !== indexElementReplacement ? current : '..';
+    newarray.push(element);
   }
   return newarray;
 };
