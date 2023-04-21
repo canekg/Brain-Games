@@ -12,6 +12,7 @@ I present to you 5 games for logical thinking. Each game asks questions to which
 Below are the steps to install games, follow the instructions:
 
 1 Install Node.js globally at least v19.8.1
+
 Package install command: npm install <package name>
 
 2 Run command: npm link
@@ -24,7 +25,7 @@ $ brain-calc
 $ brain-gcd
 $ brain-progression
 $ brain-even
-
+```
 
 game is even
 [![asciicast](https://asciinema.org/a/P19fFJQo8z9gXWqgQMlnsVnRm.svg)](https://asciinema.org/a/P19fFJQo8z9gXWqgQMlnsVnRm)
@@ -40,4 +41,3 @@ game progression
 
 game prime
 [![asciicast](https://asciinema.org/a/80nNm6BJWgEsmGM2vzuY7Jp5Z.svg)](https://asciinema.org/a/80nNm6BJWgEsmGM2vzuY7Jp5Z)
-```
