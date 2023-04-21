@@ -1,17 +1,16 @@
 import readlineSync from 'readline-sync';
 
-const game = (task, gameSettingsBuilding) => {
+const roundsCount = 3;
+
+const playGame = (task, gameSettingsBuilding) => {
   // Приветствие
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log('Hello,', `${userName}!`);
-  // eslint-disable-next-line no-undef
   console.log(task);
-  const maxRaunds = 3;
   // Цикл (3 задачи - 3 ответа)
-  for (let i = 0; i < maxRaunds; i += 1) {
+  for (let i = 0; i < roundsCount; i += 1) {
     const [answerCheck, question] = gameSettingsBuilding();
-    // eslint-disable-next-line no-undef
     console.log('Question:', `${question}`);
     const answer = readlineSync.question('Your answer: ');
     // проверка на правильный ответ
@@ -24,4 +23,4 @@ const game = (task, gameSettingsBuilding) => {
     console.log('Congratulations,', `${userName}!`);
   }
 };
-export default game;
+export default playGame;
