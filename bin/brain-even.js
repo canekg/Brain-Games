@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-// импорт функции для приветствия
-// eslint-disable-next-line import/no-named-as-default, import/no-named-as-default-member
-import game from '../src/games/even.js';
-// вызов функции
-game();
+import startBrainEven from '../src/games/even.js';
+
+startBrainEven();
