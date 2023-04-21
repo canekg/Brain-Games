@@ -1,10 +1,9 @@
-// импорт функции для приветствия
-import game from '../index.js';
-import randomNumberGeneration from '../utils.js';
+import playGame from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const answerCalculation = (number) => {
+const isPrime = (number) => {
   if (number < 2) {
     return 'no';
   }
@@ -16,13 +15,12 @@ const answerCalculation = (number) => {
   return 'yes';
 };
 
-const gameSettingsBuilding = () => {
-  const randomNumber = randomNumberGeneration(0, 100);
+const setGameSettings = () => {
+  const randomNumber = getRandomNumber(0, 100);
   const question = randomNumber;
-  const answerCheck = answerCalculation(randomNumber);
-  // eslint-disable-next-line no-unused-expressions
+  const answerCheck = isPrime(randomNumber);
   return [answerCheck, question];
 };
 
-const brainPrime = () => game(task, gameSettingsBuilding);
-export default brainPrime;
+const startBrainPrime = () => playGame(task, setGameSettings);
+export default startBrainPrime;

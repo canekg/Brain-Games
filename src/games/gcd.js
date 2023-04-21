@@ -1,10 +1,9 @@
-// импорт функции для приветствия
-import game from '../index.js';
-import randomNumberGeneration from '../utils.js';
+import playGame from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const task = 'Find the greatest common divisor of given numbers.';
 
-const answerCalculation = (number1, number2) => {
+const calculationAnswer = (number1, number2) => {
   let num1 = number1;
   let num2 = number2;
   while (num1 !== num2) {
@@ -17,13 +16,13 @@ const answerCalculation = (number1, number2) => {
   return num1;
 };
 
-const gameSettingsBuilding = () => {
-  const randomNumber1 = randomNumberGeneration(1, 100);
-  const randomNumber2 = randomNumberGeneration(1, 100);
+const setGameSettings = () => {
+  const randomNumber1 = getRandomNumber(1, 100);
+  const randomNumber2 = getRandomNumber(1, 100);
   const question = ('Question:', `${randomNumber1} ${randomNumber2}`);
-  const answerCheck = String(answerCalculation(randomNumber1, randomNumber2));
+  const answerCheck = String(calculationAnswer(randomNumber1, randomNumber2));
   return [answerCheck, question];
 };
 
-const brainGcd = () => game(task, gameSettingsBuilding);
-export default brainGcd;
+const startBrainGcd = () => playGame(task, setGameSettings);
+export default startBrainGcd;
