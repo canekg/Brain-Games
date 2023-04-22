@@ -15,7 +15,11 @@ Below are the steps to install games, follow the instructions:
 
 2 Install game package
 
-3 Run command: npm link
+3 Run command:
+
+```bash
+$ npm link
+```
 
 ## Package install command:
 
