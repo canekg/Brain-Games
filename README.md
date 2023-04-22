@@ -15,16 +15,16 @@ Below are the steps to install games, follow the instructions:
 
 2 Install game package
 
-3 Run command:
-
-```bash
-$ npm link
-```
-
 ## Package install command:
 
 ```bash
 $ npm install @hexlet/code
+```
+
+3 Run command:
+
+```bash
+$ npm link
 ```
 
 ## Start games
