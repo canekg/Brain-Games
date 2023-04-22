@@ -15,7 +15,7 @@ Below are the steps to install games, follow the instructions:
 
 2 Install game package
 
-## Package install command:
+### Package install command:
 
 ```bash
 $ npm install @hexlet/code
@@ -27,7 +27,7 @@ $ npm install @hexlet/code
 $ npm link
 ```
 
-## Start games
+### Start games
 
 ```bash
 $ brain-even
