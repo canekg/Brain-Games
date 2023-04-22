@@ -11,9 +11,9 @@ I present to you 5 games for logical thinking. Each game asks questions to which
 
 Below are the steps to install games, follow the instructions:
 
-1 Install Node.js globally at least v19.8.1
+1. Install Node.js globally at least v19.8.1
 
-2 Install game package
+2. Install game package
 
 ### Package install command:
 
@@ -21,7 +21,7 @@ Below are the steps to install games, follow the instructions:
 $ npm install @hexlet/code
 ```
 
-3 Run command:
+3. Run command:
 
 ```bash
 $ npm link
