@@ -17,7 +17,6 @@ const generateProgression = (start, step, replaceIndex) => {
 const setGameData = () => {
   const start = getRandomNumber(1, 10);
   const step = getRandomNumber(1, 10);
-  // const numberElements = getRandomNumber(5, 10);
   const replaceIndex = getRandomNumber(0, numberElements);
   const answerCheck = String(start + step * replaceIndex);
   const stringarray = generateProgression(start, step, replaceIndex).join(' ');
