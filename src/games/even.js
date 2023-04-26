@@ -5,12 +5,12 @@ const task = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (number) => number % 2 === 0;
 
-const setGameSettings = () => {
+const setGameData = () => {
   const randomNumber = getRandomNumber(1, 100);
   const question = randomNumber;
   const answerCheck = isEven(randomNumber) ? 'yes' : 'no';
   return [answerCheck, question];
 };
 
-const startBrainEven = () => playGame(task, setGameSettings);
+const startBrainEven = () => playGame(task, setGameData);
 export default startBrainEven;

@@ -2,7 +2,7 @@ import readlineSync from 'readline-sync';
 
 const roundsCount = 3;
 
-const playGame = (task, gameSettingsBuilding) => {
+const playGame = (task, setGameData) => {
   // Приветствие
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
@@ -10,7 +10,7 @@ const playGame = (task, gameSettingsBuilding) => {
   console.log(task);
   // Цикл (3 задачи - 3 ответа)
   for (let i = 0; i < roundsCount; i += 1) {
-    const [answerCheck, question] = gameSettingsBuilding();
+    const [answerCheck, question] = setGameData();
     console.log('Question:', `${question}`);
     const answer = readlineSync.question('Your answer: ');
     // проверка на правильный ответ
