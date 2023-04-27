@@ -20,7 +20,7 @@ const playGame = (task, setGameData) => {
       return;
     }
     console.log('Correct!');
-    console.log('Congratulations,', `${userName}!`);
   }
+  console.log('Congratulations,', `${userName}!`);
 };
 export default playGame;
