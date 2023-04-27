@@ -3,7 +3,6 @@ import getRandomNumber from '../utils.js';
 
 const task = 'What is the result of the expression?';
 
-// eslint-disable-next-line consistent-return
 const getResultExpression = (operator, number1, number2) => {
   switch (operator) {
     case '+':
