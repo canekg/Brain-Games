@@ -12,7 +12,7 @@ const getResultExpression = (operator, number1, number2) => {
     case '*':
       return number1 * number2;
     default:
-      break;
+      throw new Error(`Unknown order state: '${operator}'!`);
   }
 };
 
